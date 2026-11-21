@@ -1,0 +1,33 @@
+{
+  "id": "chronograf",
+  "recipe": "chronograf-v1",
+  "version": "1.11.7.1",
+  "publisher": "Lu Yifei",
+  "help": "https://github.com/LuYifei2011/tos-chronograf#readme",
+  "official": "https://github.com/influxdata/chronograf",
+  "platforms": ["x86_64", "aarch64"],
+  "category": ["Utilities"],
+  "languages": {
+    "en-us": {
+      "name": "Chronograf",
+      "auth": "InfluxData",
+      "descript": "Explore InfluxDB time series, build dashboards and configure Kapacitor alerts from your NAS.",
+      "important": "Use port 18888 on a trusted network. Connect your own InfluxDB service. The data directory must be writable by UID 1000.",
+      "release_note": "Initial TOS release for Chronograf 1.11.7."
+    },
+    "zh-cn": {
+      "name": "Chronograf",
+      "auth": "InfluxData",
+      "descript": "在 NAS 上查询 InfluxDB 时序数据、制作仪表板，并为已连接的 Kapacitor 配置告警。",
+      "important": "请在可信网络内访问 18888 端口，并连接自己的 InfluxDB 服务。数据目录须允许 UID 1000 写入。",
+      "release_note": "首次发布 Chronograf 1.11.7 的 TOS 安装包。"
+    },
+    "zh-hk": {
+      "name": "Chronograf",
+      "auth": "InfluxData",
+      "descript": "在 NAS 上查詢 InfluxDB 時序資料、製作儀表板，並為已連接的 Kapacitor 設定警報。",
+      "important": "請在受信任的網絡內存取連接埠 18888，並連接自己的 InfluxDB 服務。資料目錄須允許 UID 1000 寫入。",
+      "release_note": "首次發佈 Chronograf 1.11.7 的 TOS 安裝套件。"
+    }
+  }
+}
