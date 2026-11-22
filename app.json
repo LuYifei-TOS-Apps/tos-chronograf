@@ -3,7 +3,7 @@
   "recipe": "chronograf-v1",
   "version": "1.11.7.1",
   "publisher": "Lu Yifei",
-  "help": "https://github.com/LuYifei2011/tos-chronograf#readme",
+  "help": "https://github.com/LuYifei-TOS-Apps/tos-chronograf#readme",
   "official": "https://github.com/influxdata/chronograf",
   "platforms": ["x86_64", "aarch64"],
   "category": ["Utilities"],
