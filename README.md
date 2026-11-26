@@ -13,3 +13,5 @@ Chronograf 是 InfluxData 的时序数据可视化工具。此包使用 Docker �
 Chronograf 以 UID/GID `1000:1000` 运行，容器内的数据文件为 `/var/lib/chronograf/chronograf-v1.db`。在 TOS Docker 管理器中可查看挂载到 `/var/lib/chronograf` 的宿主目录。该目录须允许 UID 1000 写入；备份前先停止应用，再复制数据目录，并限制备份的读取权限。连接设置和仪表板保存在这里，时序数据由已连接的 InfluxDB 管理。
 
 安装包和 SHA-256 校验文件随本仓库的 Release 发布。Chronograf 遵循 GNU AGPL-3.0-or-later，本仓库中的安装说明、打包元数据和自绘图标由 Lu Yifei 维护。[安装包](https://github.com/LuYifei-TOS-Apps/tos-chronograf/releases) · [Chronograf 许可证](https://github.com/influxdata/chronograf/blob/1.11.7/LICENSE)
+
+[隐私政策 / Privacy policy](PRIVACY.md)
